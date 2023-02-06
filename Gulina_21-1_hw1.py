@@ -1,0 +1,10 @@
+Chui = int(input("Введите температуру Чуя"))
+Batken = int(input("Введите температуру Баткена"))
+Naryn = int(input("Введите температуру Нарына"))
+Osh = int(input("Введите температуру Оша"))
+Talas = int(input("Введите температуру Таласа"))
+Issyk_kul = int(input("Введите температуру Иссык Куля"))
+Jalal_abad = int(input("Введите температуру Жалал Абада"))
+average_of_region = (Chui + Batken + Naryn + Osh + Talas + Issyk_kul + Jalal_abad)/7
+rounded = round(average_of_region, 1)
+print("Средний показатель температуры воздуха по КР на сегодня",rounded,"°C.")
